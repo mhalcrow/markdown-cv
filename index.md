@@ -12,14 +12,18 @@ Engineering Manager.
 ## Overview
 
 I am currently the Engineering Manager of the Container Threat
-Detection product team at Google. I have over 20 years of experience
-in the security industry, during which time I created eCryptfs and
-fs-crypt in the upstream Linux kernel. My technology was central in
-Google's effort to encrypt billions of Android phones across the
-globe, closing a major competitive gap with the Apple iPhone.
+Detection product team at Google. In this role I hired and led a team
+of 11 software developers to create a new enterprise security product
+in the Cloud Security organization, which shipped Beta in May 2020.
 
-### Employment History
+I have over 20 years of experience in the security industry, during
+which time I created eCryptfs and fs-crypt in the upstream Linux
+kernel. My technology was central in Google's effort to encrypt
+billions of Android phones across the globe, closing a major
+competitive gap with the Apple iPhone.
 
-#### Google
+## Employment History
+
+### Google
 
 Hi
