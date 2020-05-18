@@ -3,7 +3,7 @@ layout: cv
 title: Michael Halcrow's Resume
 ---
 # Michael Halcrow
-Engineering Manager.
+Engineering Manager, Security.
 
 <div id="webaddress">
 <a href="mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
@@ -36,12 +36,23 @@ whatever challenge I take on.
 
 ### Google, 2011-present
 
+Founding Member of the Google Cloud Platform (GCP) Security Organization.
+
 <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a>
 
  * I built the team from scratch, hiring on 9 new employees from
    outside the company and transferring in 3 employees from other
-   teams at Google.
+   teams at Google. I established the team's engineering culture,
+   drove execution, gave career guidance, and navigated the team
+   through the COVID-19 crisis to ship our Beta product in record
+   time, moving from concept and no headcount to delivery with 12
+   employees in about 1 year.
+ * I demonstrated adaptability in managing a disparate group of
+   software engineers, including 1 new hire straight out of college, 4
+   junior professional hires, 2 experienced professional hires, 2
+   internal transfers, and 3 engineers with doctorates in security and
+   ML.
  * I designed the kernel instrumentation and the Google service
    framework, and I led my team's execution on an ambitious vision.
  * I led Machine Learning experts on my team to produce novel
@@ -60,11 +71,11 @@ fs-crypt
  * I proposed the <a
    href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote
    the design, and wrote the majority of the implemention together
-   with Ted T'so. I engaged the Android team at Google to ensure that
-   fs-crypt met platform requirements, extended fs-crypt to support
-   Inline Cryptographic Engine (ICE) technology that's part of the ARM
-   ecosystem, and worked with engineers in the Android organization to
-   <a
+   with Ted T'so, a well-known core Linux kernel maintainer. I engaged
+   the Android team at Google to ensure that fs-crypt met platform
+   requirements, extended fs-crypt to support Inline Cryptographic
+   Engine (ICE) technology that's part of the ARM ecosystem, and
+   worked with engineers in the Android organization to <a
    href="https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html">ship
    Android N with storage encryption</a> enabled by default.
  * fs-crypt also protects user data on Chrome OS and sensitive data on
@@ -105,7 +116,11 @@ Windows Division, BitLocker
 
 Linux Technology Center, Security
 
- * I created eCryptfs.
+ * I created <a
+   href="https://www.linuxjournal.com/article/9400">eCryptfs</a>. For
+   many years eCryptfs protected storage on consumer devices such as
+   Synology NAS, and at least one startup, Gazzang, based its core
+   product offering on eCryptfs.
  * I wrote extensive detailed documentation of low-level Linux system
    call interfaces, which was critical to achieve the world's first
    Common Criteria certification of a Linux distribution (RHEL).
