@@ -37,11 +37,9 @@ Container Threat Detection
  * I built the team from scratch, hiring on 9 new employees from
    outside the company and transferring in 3 employees from other
    teams at Google.
-
  * I did the initial design on the kernel instrumentation and the
    Google service framework, and I led my team's execution on that
    vision.
-
  * I led Machine Learning experts on my team in the concept and
    implementation of malicious script detection capability.
 
@@ -65,7 +63,6 @@ fs-crypt
    <a
    href="https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html">ship
    Android N with storage encryption</a> enabled by default.
-
  * fs-crypt also protects user data on Chrome OS and sensitive data on
    Google's production infrastructure.
 
