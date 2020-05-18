@@ -11,15 +11,13 @@ Engineering Manager.
 
 ## Overview
 
-I am seeking a leadership opportunity in a security organization
-that's facing significant changes in its domain. I prefer a fair
-degree of ambiguity in the definition of the problem space and/or the
-potential solution.
+I seek a leadership opportunity applying deep security expertise to
+unique challenges.
 
 I am currently the Engineering Manager of the Container Threat
-Detection product team at Google. In this role I hired and led a team
-of software developers to create a new enterprise security product in
-Google's Cloud Security organization. My team <a
+Detection product team at Google. I hired and led a team of software
+developers to create a new enterprise security product in Google's
+Cloud Security organization. My team <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">shipped
 Beta</a> in May 2020.
 
@@ -31,20 +29,23 @@ Linux kernel. My technology was central in Google's effort to encrypt
 billions of Android phones across the globe, closing a major
 competitive gap with the Apple iPhone.
 
+I thrive in ambiguity and relish opportunities to lead the industry in
+whatever challenge I take on.
+
 ## Employment History
 
-### Google, 2010-present
+### Google, 2011-present
 
-Container Threat Detection
+<a
+href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a>
 
  * I built the team from scratch, hiring on 9 new employees from
    outside the company and transferring in 3 employees from other
    teams at Google.
- * I did the initial design on the kernel instrumentation and the
-   Google service framework, and I led my team's execution on that
-   vision.
- * I led Machine Learning experts on my team in the concept and
-   implementation of malicious script detection capability.
+ * I designed the kernel instrumentation and the Google service
+   framework, and I led my team's execution on an ambitious vision.
+ * I led Machine Learning experts on my team to produce novel
+   techniques in the threat detection domain.
 
 fs-verity
 
@@ -72,9 +73,9 @@ fs-crypt
 Cloud KMS
 
  * I conceived the Google Cloud Key Management Service (KMS) project
-   and proposed the initial design. Note that another team that
-   specializes in key management took over the project and drove it to
-   completion.
+   and proposed the initial design. I transitioned the project to
+   another team that specializes in key management, and they drove it
+   to commercial success.
 
 Customer-supplied Encryption Keys
 
@@ -90,18 +91,25 @@ Compute Engine Persistent Disk Encryption
    performance requirements, which is a notable technical
    achievement.
 
-### Microsoft, 2008-2010
+### Microsoft, 2009-2011
 
-BitLocker
+Windows Division, BitLocker
 
- * I contributed some features to the BitLocker Full Disk Encryption
-   feature that ships as part of the Windows operating system.
+ * I delivered passphrase-based system volume protectors for the
+   BitLocker Full Disk Encryption feature, unblocking a significant
+   number of enterprise customers so they can use Windows-native disk
+   encryption technology.
  * I performed static code analysis of the Windows code base.
 
-### IBM, 2004-2008
+### IBM, 2003-2009
+
+Linux Technology Center, Security
 
  * I created eCryptfs.
- * I wrote extensive documentation of low-level Linux system call
-   interfaces to help achieve the world's first Common Criteria
-   certification of a Linux distribution (RHEL).
+ * I wrote extensive detailed documentation of low-level Linux system
+   call interfaces, which was critical to achieve the world's first
+   Common Criteria certification of a Linux distribution (RHEL).
 
+## Education
+
+Master of Science in Computer Sciences (MSCS), UT Austin, 2007.
