@@ -93,8 +93,7 @@ BitLocker
 
  * I contributed some features to the BitLocker Full Disk Encryption
    feature that ships as part of the Windows operating system.
-
- * I participated in static code analysis of the Windows code base.
+ * I performed static code analysis of the Windows code base.
 
 ### IBM, 2004-2008
 
