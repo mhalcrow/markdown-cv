@@ -30,7 +30,7 @@ competitive gap with the Apple iPhone.
 
 ## Employment History
 
-### Google
+### Google, 2010-present
 
 Container Threat Detection
 
@@ -86,3 +86,20 @@ Compute Engine Persistent Disk Encryption
    AEAD encryption to block storage while meeting consistency and
    performance requirements, which is a notable technical
    achievement.
+
+### Microsoft, 2008-2010
+
+BitLocker
+
+ * I contributed some features to the BitLocker Full Disk Encryption
+   feature that ships as part of the Windows operating system.
+
+ * I participated in static code analysis of the Windows code base.
+
+### IBM, 2004-2008
+
+ * I created eCryptfs.
+ * I wrote extensive documentation of low-level Linux system call
+   interfaces to help achieve the world's first Common Criteria
+   certification of a Linux distribution (RHEL).
+
