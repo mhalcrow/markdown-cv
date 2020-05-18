@@ -11,7 +11,10 @@ Engineering Manager.
 
 ## Overview
 
-I am seeking a Director-level position
+I am seeking a leadership opportunity in a security organization
+that's facing significant changes in its domain. I prefer a fair
+degree of ambiguity in the definition of the problem space and/or the
+potential solution.
 
 I am currently the Engineering Manager of the Container Threat
 Detection product team at Google. In this role I hired and led a team
