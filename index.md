@@ -19,15 +19,15 @@ Detection product team at Google. I hired and led a team of software
 developers to create a new enterprise security product in Google's
 Cloud Security organization. My team <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">shipped
-Beta</a> in May 2020.
+its Beta product</a> in May 2020.
 
-I have over 20 years of experience in the security industry, during
-which time I created <a
+I bring 20 years of experience in the security industry. My most
+noteable accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a
-href="https://lwn.net/Articles/639427/">fs-crypt</a> in the upstream
-Linux kernel. My technology was central in Google's effort to encrypt
-billions of Android phones across the globe, closing a major
-competitive gap with the Apple iPhone.
+href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
+are part of the upstream Linux kernel. My technology was central in
+Google's effort to encrypt billions of Android devices across the
+globe, closing a major competitive gap with the Apple iPhone.
 
 I thrive in ambiguity and relish opportunities to lead the industry in
 whatever challenge I take on.
@@ -47,7 +47,7 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    drove execution, gave career guidance, and navigated the team
    through the COVID-19 crisis to ship our Beta product in record
    time, moving from concept and no headcount to delivery with 12
-   employees in about 1 year.
+   employees in about 18 months.
  * I demonstrated adaptability in managing a disparate group of
    software engineers, including 1 new hire straight out of college, 4
    junior professional hires, 2 experienced professional hires, 2
@@ -83,33 +83,36 @@ fs-crypt
 
 Cloud KMS
 
- * I conceived the Google Cloud Key Management Service (KMS) project
-   and proposed the initial design. I transitioned the project to
-   another team that specializes in key management, and they drove it
-   to commercial success.
+ * I conceived the <a href="https://cloud.google.com/kms">Google Cloud
+   Key Management Service (KMS)</a> project and proposed the initial
+   design. I transitioned the project to another team that specializes
+   in key management, and they drove it to commercial success.
 
 Customer-supplied Encryption Keys
 
- * I led the design and implementation of Customer-supplied Encryption
-   Keys (CSEK) on Google Compute Engine.
+ * I led the design and implementation of <a
+   href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied
+   Encryption Keys (CSEK)</a> on Google Compute Engine.
 
 Compute Engine Persistent Disk Encryption
 
  * I proposed, designed, and implemented storage encryption as an
-   always-on feature of Google Compute Engine's Persistent Disk, which
-   was an industry-first accomplishment in the Cloud space. I applied
-   AEAD encryption to block storage while meeting consistency and
-   performance requirements, which is a notable technical
-   achievement.
+   always-on feature of Google Compute Engine's <a
+   href="https://cloud.google.com/persistent-disk">Persistent
+   Disk</a>, which was an industry-first accomplishment in the Cloud
+   space. I applied AEAD encryption to block storage while meeting
+   consistency and performance requirements, which is a notable
+   technical achievement.
 
 ### Microsoft, 2009-2011
 
 Windows Division, BitLocker
 
- * I delivered passphrase-based system volume protectors for the
-   BitLocker Full Disk Encryption feature, unblocking a significant
-   number of enterprise customers so they can use Windows-native disk
-   encryption technology.
+ * I delivered <a
+   href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based
+   system volume protectors</a> for the BitLocker Full Disk Encryption
+   feature, unblocking a significant number of enterprise customers so
+   they can use Windows-native disk encryption technology.
  * I performed static code analysis of the Windows code base.
 
 ### IBM, 2003-2009
@@ -128,3 +131,10 @@ Linux Technology Center, Security
 ## Education
 
 Master of Science in Computer Sciences (MSCS), UT Austin, 2007.
+
+## Keywords
+
+Security, Privacy, Data Protection, Storage Encryption, Applied
+Cryptography, Key Management, KMS, Linux, File Systems, Operating
+Systems, Containers, Docker, Kubernetes, Threat Detection, Scrum,
+Agile, Engineering Manager, C, C++, Python, Go, Machine Learning, ML
