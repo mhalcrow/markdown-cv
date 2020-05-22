@@ -21,7 +21,7 @@ Cloud Security organization. My team <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">shipped
 its Beta product</a> in May 2020.
 
-I bring 20 years of experience in the security industry. My most
+I have 20 years of experience in the security industry. My most
 noteable accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
@@ -34,7 +34,7 @@ whatever challenge I take on.
 
 ## Employment History
 
-### Google, 2011-present
+### Google, 2011-present<br>Kirkland, WA
 
 Founding Member of the Google Cloud Platform (GCP) Security Organization.
 
@@ -104,7 +104,7 @@ Compute Engine Persistent Disk Encryption
    consistency and performance requirements, which is a notable
    technical achievement.
 
-### Microsoft, 2009-2011
+### Microsoft, 2009-2011<br>Redmond, WA
 
 Windows Division, BitLocker
 
@@ -115,7 +115,7 @@ Windows Division, BitLocker
    they can use Windows-native disk encryption technology.
  * I performed static code analysis of the Windows code base.
 
-### IBM, 2003-2009
+### IBM, 2003-2009<br>Austin, TX
 
 Linux Technology Center, Security
 
@@ -132,9 +132,11 @@ Linux Technology Center, Security
 
 Master of Science in Computer Sciences (MSCS), UT Austin, 2007.
 
+Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
+
 ## Keywords
 
 Security, Privacy, Data Protection, Storage Encryption, Applied
 Cryptography, Key Management, KMS, Linux, File Systems, Operating
 Systems, Containers, Docker, Kubernetes, Threat Detection, Scrum,
-Agile, Engineering Manager, C, C++, Python, Go, Machine Learning, ML
+Agile, Engineering Management, C, C++, Python, Go, Machine Learning, ML
