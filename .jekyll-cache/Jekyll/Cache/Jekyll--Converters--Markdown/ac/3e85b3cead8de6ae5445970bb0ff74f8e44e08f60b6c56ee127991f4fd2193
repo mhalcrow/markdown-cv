@@ -1,8 +1,8 @@
-I"�<h1 id="michael-halcrow">Michael Halcrow</h1>
+I"�<h1 id="michael-halcrow">Michael Halcrow</h1>
 <p>Engineering Manager, Security.</p>
 
 <div id="webaddress">
-<a href="mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
+<a href="mailto:mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
 </div>
 
 <h2 id="overview">Overview</h2>
@@ -29,9 +29,9 @@ whatever challenge I take on.</p>
 
 <h3 id="google-2011-presentkirkland-wa">Google, 2011-present<br />Kirkland, WA</h3>
 
-<p>Founding Member of the Google Cloud Platform (GCP) Security Organization.</p>
+<p><strong>Founding Member</strong> of the Google Cloud Platform (GCP) Security Organization.</p>
 
-<p><a href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a></p>
+<p><strong><a href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a></strong><br /><em>Staff Engineering Manager</em></p>
 
 <ul>
   <li>I built the team from scratch, hiring on 9 new employees from
@@ -52,7 +52,7 @@ framework, and I led my team’s execution on an ambitious vision.</li>
 techniques in the threat detection domain.</li>
 </ul>
 
-<p>fs-verity</p>
+<p><strong>fs-verity</strong><br /><em>Staff Technical Lead Manager</em></p>
 
 <ul>
   <li>I wrote the initial prototype of <a href="https://www.youtube.com/watch?v=Aw5h6aBhu6M">fs-verity</a>
@@ -61,7 +61,7 @@ the upstream Linux kernel. The fs-verity feature now protects the
 integrity of sensitive apps on Android.</li>
 </ul>
 
-<p>fs-crypt</p>
+<p><strong>fs-crypt</strong><br /><em>Senior Software Engineer</em></p>
 
 <ul>
   <li>I proposed the <a href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote
@@ -76,7 +76,7 @@ Android N with storage encryption</a> enabled by default.</li>
 Google’s production infrastructure.</li>
 </ul>
 
-<p>Cloud KMS</p>
+<p><strong>Cloud KMS</strong><br /><em>Senior Software Engineer</em></p>
 
 <ul>
   <li>I conceived the <a href="https://cloud.google.com/kms">Google Cloud
@@ -85,14 +85,14 @@ design. I transitioned the project to another team that specializes
 in key management, and they drove it to commercial success.</li>
 </ul>
 
-<p>Customer-supplied Encryption Keys</p>
+<p><strong>Customer-supplied Encryption Keys</strong><br /><em>Senior Software Engineer</em></p>
 
 <ul>
   <li>I led the design and implementation of <a href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied
 Encryption Keys (CSEK)</a> on Google Compute Engine.</li>
 </ul>
 
-<p>Compute Engine Persistent Disk Encryption</p>
+<p><strong>Compute Engine Persistent Disk Encryption</strong><br /><em>Software Engineer III</em></p>
 
 <ul>
   <li>I proposed, designed, and implemented storage encryption as an
@@ -105,7 +105,7 @@ technical achievement.</li>
 
 <h3 id="microsoft-2009-2011redmond-wa">Microsoft, 2009-2011<br />Redmond, WA</h3>
 
-<p>Windows Division, BitLocker</p>
+<p><strong>Windows Division, BitLocker</strong><br /><em>Senior Software Engineer</em></p>
 
 <ul>
   <li>I delivered <a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based
@@ -117,7 +117,7 @@ they can use Windows-native disk encryption technology.</li>
 
 <h3 id="ibm-2003-2009austin-tx">IBM, 2003-2009<br />Austin, TX</h3>
 
-<p>Linux Technology Center, Security</p>
+<p><strong>Linux Technology Center, Security</strong><br /><em>Software Engineer</em></p>
 
 <ul>
   <li>I created <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a>. For
@@ -131,14 +131,32 @@ Common Criteria certification of a Linux distribution (RHEL).</li>
 
 <h2 id="education">Education</h2>
 
-<p>Master of Science in Computer Sciences (MSCS), UT Austin, 2007.</p>
+<p>Master of Science in Computer Sciences (<strong>MSCS</strong>), UT Austin, 2007.</p>
 
 <p>Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.</p>
 
+<h2 id="miscellaneous">Miscellaneous</h2>
+
+<p>I help instruct Google’s internal Interview Training Workshop, where I
+prepare new employees to conduct interviews at Google. I’m also a
+leading interviewer in my organization, and I’m frequently called upon
+to interview Product Managers, Engineering Managers, Software
+Engineers, Test Engineers, and Technical Program Managers.</p>
+
+<p>I am an inventor on 15 issued patents.</p>
+
+<p>I have made multiple external presentations at the Linux Security
+Summit (LSS) and the Ottawa Linux Symposium (OLS).</p>
+
+<p>I lead Google’s internal bicycling forum for the Seattle area,
+coordinating rides, giving presentations, and facilitating engagement
+with charity events.</p>
+
 <h2 id="keywords">Keywords</h2>
 
-<p>Security, Privacy, Data Protection, Storage Encryption, Applied
-Cryptography, Key Management, KMS, Linux, File Systems, Operating
-Systems, Containers, Docker, Kubernetes, Threat Detection, Scrum,
-Agile, Engineering Management, C, C++, Python, Go, Machine Learning, ML</p>
+<p><strong>Security</strong>, Privacy, Data Protection, <strong>Storage Encryption</strong>,
+Applied Cryptography, Key Management, KMS, Linux, File Systems,
+Operating Systems, Containers, Docker, Kubernetes, <strong>Threat
+Detection</strong>, Scrum, Agile, Engineering Management, C, C++, Python, Go,
+Machine Learning, ML</p>
 :ET

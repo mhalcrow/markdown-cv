@@ -1,0 +1,510 @@
+<style type="text/css" media="screen">
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style-type: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of HTML5 display-role reset */
+
+body {
+	font: normal normal 400;
+	font-size: 80%;
+	line-height: 1.5em;
+	font-family: Verdana,sans-serif;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+p {
+	position: relative;
+	left: 33%;
+	margin-bottom: 0.7em;
+	margin-right: 0;
+	width: 65%;
+}
+
+code {
+	font: normal normal;
+	font-size: 60%;
+	font-family: Menlo,monospace,sans-serif;
+	color: #aaa;
+}
+
+p code {
+	position: absolute;
+	left: -14%;
+}
+
+
+ul { 
+	position: relative;
+	left: 38%;
+	width: 60%;
+	margin-bottom: 1.5em;
+	margin-top: -0.5em;
+}
+
+
+li {
+	margin: 1.2em;
+    
+}
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+	font-family: Cousine,Verdana,sans-serif;
+	width: 65%;
+}
+
+h1 {
+	text-align: left;
+	font-size: 3em;
+	line-height: 1em;
+	position: relative;
+	left: 33%;
+}
+
+h1+p { 
+	font-style: italic;
+	font-size: 110%;
+}
+
+h2 {
+	font-size: 1.1em;
+	color: #a00;
+	margin-top: 3em;
+	position: relative;
+	top: 1.4em;
+	text-align: right;
+	width: 20%;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 2em; 
+	position: relative;
+	top: 1.7em;
+	text-align: right;
+	width: 20%;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color:#39f
+}
+
+#webaddress {
+	margin-top: 1em;
+	position: relative;
+	left: 33%;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 100%;
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
+em {
+	font-weight: bold;
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#address {
+	display: none;
+}
+</style>
+<style type="text/css" media="print">
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+    list-style-type: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of HTML5 display-role reset */
+
+body {
+	font: normal normal 400;
+	font-size: 10pt;
+	line-height: 1.35em;
+	font-family: Verdana,sans-serif;
+}
+
+p {
+	position: relative;
+	left: 28%;
+	line-height: 1.5em;
+	margin-bottom: 1.3em;
+	margin-right: 0;
+	width: 70%;
+}
+
+code {
+	font: normal normal;
+	font-size: 60%;
+	font-family: Menlo,monospace,sans-serif;
+	color: #ccc;
+}
+
+p code {
+	position: absolute;
+	left: -11%;
+}
+
+
+ul { 
+	position: relative;
+	left: 33%;
+	width: 65%;
+	margin-bottom: 1.2em;
+}
+
+li {
+	margin: 1.2em;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+	font-family: Cousine,Verdana,sans-serif;
+	width: 65%;
+}
+
+h1 {
+	text-align: left;
+	font-size: 3em;
+	line-height: 1em;
+	position: relative;
+	left: 28%;
+}
+
+h1+p { 
+	font-style: italic;
+	font-size: 110%;
+}
+
+h2 {
+	font-size: 1.1em;
+	color: #a00;
+	margin-top: 2em;
+	position: relative;
+	top: 1.2em;
+	text-align: right;
+	width: 18%;
+}
+
+
+h3 {
+	font-size: 1em;
+	line-height: 2em; 
+	color: #ccc;
+	position: relative;
+	top: 1.6em;
+	text-align: right;
+	width: 18%;
+}
+
+a {
+	color: inherit;
+	text-decoration:none
+}
+
+a:hover {
+	color:#39f
+}
+
+#webaddress {
+	margin-top: 1em;
+	position: relative;
+	left: 28%;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 100%;
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
+em {
+	font-style: normal;
+	color: #2d4e5e 
+}
+
+strong {
+	font-weight: bold;
+}
+
+#ghbutton {
+	display: none;
+	visibility: hidden;
+}
+
+</style>
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>  Michael Halcrow's Resume |  CV</title>
+  <link href="media/kjhealy-screen.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="media/kjhealy-print.css" type="text/css" rel="stylesheet" media="print">
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+    <h1 id="michael-halcrow">Michael Halcrow</h1>
+<p>Engineering Manager, Security.</p>
+
+<div id="webaddress">
+<a href="mailto:mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
+</div>
+
+<h2 id="overview">Overview</h2>
+
+<p>I seek a leadership opportunity applying deep security expertise to
+unique challenges.</p>
+
+<p>I am currently the Engineering Manager of the Container Threat
+Detection product team at Google. I hired and led a team of software
+developers to create a new enterprise security product in Google’s
+Cloud Security organization. My team <a href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">shipped
+its Beta product</a> in May 2020.</p>
+
+<p>I have 20 years of experience in the security industry. My most
+noteable accomplishments include <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
+are part of the upstream Linux kernel. My technology was central in
+Google’s effort to encrypt billions of Android devices across the
+globe, closing a major competitive gap with the Apple iPhone.</p>
+
+<p>I thrive in ambiguity and relish opportunities to lead the industry in
+whatever challenge I take on.</p>
+
+<h2 id="employment-history">Employment History</h2>
+
+<h3 id="google-2011-presentkirkland-wa">Google, 2011-present<br />Kirkland, WA</h3>
+
+<p><strong>Founding Member</strong> of the Google Cloud Platform (GCP) Security Organization.</p>
+
+<p><strong><a href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a></strong><br /><em>Staff Engineering Manager</em></p>
+
+<ul>
+  <li>I built the team from scratch, hiring on 9 new employees from
+outside the company and transferring in 3 employees from other
+teams at Google. I established the team’s engineering culture,
+drove execution, gave career guidance, and navigated the team
+through the COVID-19 crisis to ship our Beta product in record
+time, moving from concept and no headcount to delivery with 12
+employees in about 18 months.</li>
+  <li>I demonstrated adaptability in managing a disparate group of
+software engineers, including 1 new hire straight out of college, 4
+junior professional hires, 2 experienced professional hires, 2
+internal transfers, and 3 engineers with doctorates in security and
+ML.</li>
+  <li>I designed the kernel instrumentation and the Google service
+framework, and I led my team’s execution on an ambitious vision.</li>
+  <li>I led Machine Learning experts on my team to produce novel
+techniques in the threat detection domain.</li>
+</ul>
+
+<p><strong>fs-verity</strong><br /><em>Staff Technical Lead Manager</em></p>
+
+<ul>
+  <li>I wrote the initial prototype of <a href="https://www.youtube.com/watch?v=Aw5h6aBhu6M">fs-verity</a>
+and led my team to drive the implementation through to merging into
+the upstream Linux kernel. The fs-verity feature now protects the
+integrity of sensitive apps on Android.</li>
+</ul>
+
+<p><strong>fs-crypt</strong><br /><em>Senior Software Engineer</em></p>
+
+<ul>
+  <li>I proposed the <a href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote
+the design, and wrote the majority of the implemention together
+with Ted T’so, a well-known core Linux kernel maintainer. I engaged
+the Android team at Google to ensure that fs-crypt met platform
+requirements, extended fs-crypt to support Inline Cryptographic
+Engine (ICE) technology that’s part of the ARM ecosystem, and
+worked with engineers in the Android organization to <a href="https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html">ship
+Android N with storage encryption</a> enabled by default.</li>
+  <li>fs-crypt also protects user data on Chrome OS and sensitive data on
+Google’s production infrastructure.</li>
+</ul>
+
+<p><strong>Cloud KMS</strong><br /><em>Senior Software Engineer</em></p>
+
+<ul>
+  <li>I conceived the <a href="https://cloud.google.com/kms">Google Cloud
+Key Management Service (KMS)</a> project and proposed the initial
+design. I transitioned the project to another team that specializes
+in key management, and they drove it to commercial success.</li>
+</ul>
+
+<p><strong>Customer-supplied Encryption Keys</strong><br /><em>Senior Software Engineer</em></p>
+
+<ul>
+  <li>I led the design and implementation of <a href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied
+Encryption Keys (CSEK)</a> on Google Compute Engine.</li>
+</ul>
+
+<p><strong>Compute Engine Persistent Disk Encryption</strong><br /><em>Software Engineer III</em></p>
+
+<ul>
+  <li>I proposed, designed, and implemented storage encryption as an
+always-on feature of Google Compute Engine’s <a href="https://cloud.google.com/persistent-disk">Persistent
+Disk</a>, which was an industry-first accomplishment in the Cloud
+space. I applied AEAD encryption to block storage while meeting
+consistency and performance requirements, which is a notable
+technical achievement.</li>
+</ul>
+
+<h3 id="microsoft-2009-2011redmond-wa">Microsoft, 2009-2011<br />Redmond, WA</h3>
+
+<p><strong>Windows Division, BitLocker</strong><br /><em>Senior Software Engineer</em></p>
+
+<ul>
+  <li>I delivered <a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based
+system volume protectors</a> for the BitLocker Full Disk Encryption
+feature, unblocking a significant number of enterprise customers so
+they can use Windows-native disk encryption technology.</li>
+  <li>I performed static code analysis of the Windows code base.</li>
+</ul>
+
+<h3 id="ibm-2003-2009austin-tx">IBM, 2003-2009<br />Austin, TX</h3>
+
+<p><strong>Linux Technology Center, Security</strong><br /><em>Software Engineer</em></p>
+
+<ul>
+  <li>I created <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a>. For
+many years eCryptfs protected storage on consumer devices such as
+Synology NAS, and at least one startup, Gazzang, based its core
+product offering on eCryptfs.</li>
+  <li>I wrote extensive detailed documentation of low-level Linux system
+call interfaces, which was critical to achieve the world’s first
+Common Criteria certification of a Linux distribution (RHEL).</li>
+</ul>
+
+<h2 id="education">Education</h2>
+
+<p>Master of Science in Computer Sciences (<strong>MSCS</strong>), UT Austin, 2007.</p>
+
+<p>Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.</p>
+
+<h2 id="miscellaneous">Miscellaneous</h2>
+
+<p>I help instruct Google’s internal Interview Training Workshop, where I
+prepare new employees to conduct interviews at Google. I’m also a
+leading interviewer in my organization, and I’m frequently called upon
+to interview Product Managers, Engineering Managers, Software
+Engineers, Test Engineers, and Technical Program Managers.</p>
+
+<p>I am an inventor on 15 issued patents.</p>
+
+<p>I have made multiple external presentations at the Linux Security
+Summit (LSS) and the Ottawa Linux Symposium (OLS).</p>
+
+<p>I lead Google’s internal bicycling forum for the Seattle area,
+coordinating rides, giving presentations, and facilitating engagement
+with charity events.</p>
+
+<h2 id="keywords">Keywords</h2>
+
+<p><strong>Security</strong>, Privacy, Data Protection, <strong>Storage Encryption</strong>,
+Applied Cryptography, Key Management, KMS, Linux, File Systems,
+Operating Systems, Containers, Docker, Kubernetes, <strong>Threat
+Detection</strong>, Scrum, Agile, Engineering Management, C, C++, Python, Go,
+Machine Learning, ML</p>
+
+    </div>
+  </div>
+</body>
+</html>

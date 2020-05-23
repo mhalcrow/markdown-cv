@@ -1,7 +1,3 @@
----
-layout: cv
-title: Michael Halcrow's Resume
----
 # Michael Halcrow
 Engineering Manager, Security.
 

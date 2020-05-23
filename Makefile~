@@ -1,0 +1,6 @@
+out/michael-halcrow-resume.md: index.md
+	cp index.md out/index.md
+
+out/michael-halcrow-resume.html: index.md
+	/usr/local/bin/markdown_py ./index.md -o html -f ../../michael-halcrow-resume.html
+
