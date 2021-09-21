@@ -14,27 +14,36 @@ Engineering Manager, Security.
 I seek a leadership opportunity applying deep security expertise to
 unique challenges.
 
-I am currently the Engineering Manager of the Container Threat
-Detection product team at Google. I hired and led a team of software
-developers to create a new enterprise security product in Google's
-Cloud Security organization. My team <a
-href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">shipped
-its Beta product</a> in May 2020.
-
 I have 20 years of experience in the security industry. My most
-noteable accomplishments include <a
+noteable technical accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
-are part of the upstream Linux kernel. My technology was central in
-Google's effort to encrypt billions of Android devices across the
-globe, closing a major competitive gap with the Apple iPhone.
+are part of the upstream Linux kernel. My technology encrypts billions of
+Android devices across the globe.
 
-I thrive in ambiguity and relish opportunities to lead the industry in
-whatever challenge I take on.
+As an Engineering Manager I led a team that designed, built, and shipped to GA
+the <a
+href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container
+Threat Detection</a> product in GKE.
 
 ## Employment History
 
-### Google, 2011-present<br>Kirkland, WA
+### Apple, 2019-present<br>Seattle, WA
+
+***Apple Cloud Services (ACS) Kubernetes Team***<br>
+_Senior Security Software Engineer_
+
+ * In response to compute capacity pressure due to the 2019-2020 global chip
+   shortage, I produced Linux kernel mitigations for CPU architecture
+   vulnerabilities relating to hyperthreading. I guided maintainers for K8s
+   orchestration components on modifications to support this functionality.
+ * I responded to security incidents, performing data analytics on audit logs
+   and advising response and engineering teams on mitigations across the Cloud
+   stack.
+ * I influenced strategy and design for Confidential Computing features on
+   next-generation Apple Silicon.
+
+### Google, 2011-2019<br>Kirkland, WA
 
 **Founding Member** of the Google Cloud Platform (GCP) Security Organization.
 
@@ -49,10 +58,9 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    time, moving from concept and no headcount to delivery with 12
    employees in about 18 months.
  * I demonstrated adaptability in managing a disparate group of
-   software engineers, including 1 new hire straight out of college, 4
-   junior professional hires, 2 experienced professional hires, 2
-   internal transfers, and 3 engineers with doctorates in security and
-   ML.
+   software engineers, including 1 college hire, 4 junior professional hires, 2
+   experienced professional hires, 2 internal transfers, and 3 engineers with
+   doctorates in security and ML.
  * I designed the kernel instrumentation and the Google service
    framework, and I led my team's execution on an ambitious vision.
  * I led Machine Learning experts on my team to produce novel
