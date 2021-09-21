@@ -29,10 +29,10 @@ Threat Detection</a> product in GKE.
 
 _Senior Security Software Engineer_
 
- * In response to compute capacity pressure due to the 2019-2020 global chip
-   shortage, I produced Linux kernel mitigations for CPU architecture
-   vulnerabilities relating to hyperthreading. I guided maintainers for K8s
-   orchestration components on modifications to support this functionality.
+ * I produced Linux kernel mitigations for CPU architecture vulnerabilities
+   relating to hyperthreading, and I guided maintainers for K8s orchestration
+   components on modifications to support this functionality.  This enabled
+   higher utilization of existing compute hardware in Apple data centers.
  * I responded to security incidents, performing data analytics on audit logs
    and advising response and engineering teams on mitigations across the Cloud
    stack.
