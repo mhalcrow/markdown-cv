@@ -23,7 +23,7 @@ Threat Detection</a> product in GKE.
 
 ## Employment History
 
-### Apple, 2019-present<br> (Seattle, WA)
+### Apple, 2019-present<br>Seattle, WA
 
 ***Apple Cloud Services (ACS) Kubernetes Team***<br>
 
@@ -39,7 +39,7 @@ _Senior Security Software Engineer_
  * I influenced strategy and design for Confidential Computing features on
    next-generation Apple Silicon.
 
-### Google, 2011-2019<br> (Kirkland, WA)
+### Google, 2011-2019<br>Kirkland, WA
 
 **Founding Member** of the Google Cloud Platform (GCP) Security Organization.
 
@@ -117,7 +117,7 @@ _Software Engineer III_
    encryption to block storage while meeting consistency and performance
    requirements, which is a notable technical achievement.
 
-### Microsoft, 2009-2011<br> (Redmond, WA)
+### Microsoft, 2009-2011<br>Redmond, WA
 
 **Windows Division, BitLocker**<br>
 
@@ -130,7 +130,7 @@ _Senior Software Engineer_
    Windows-native disk encryption technology.
  * I performed static code analysis of the Windows code base.
 
-### IBM, 2003-2009<br> (Austin, TX)
+### IBM, 2003-2009<br>Austin, TX
 
 **Linux Technology Center, Security**<br>
 

@@ -18,7 +18,7 @@ Overview
 Employment History
 
   Apple, 2019-present
-  (Seattle, WA)
+  Seattle, WA
 
    Apple Cloud Services (ACS) Kubernetes Team
 
@@ -36,7 +36,7 @@ Employment History
        on next-generation Apple Silicon.
 
   Google, 2011-2019
-  (Kirkland, WA)
+  Kirkland, WA
 
    Founding Member of the Google Cloud Platform (GCP) Security Organization.
 
@@ -111,7 +111,7 @@ Employment History
        performance requirements, which is a notable technical achievement.
 
   Microsoft, 2009-2011
-  (Redmond, WA)
+  Redmond, WA
 
    Windows Division, BitLocker
 
@@ -124,7 +124,7 @@ Employment History
      * I performed static code analysis of the Windows code base.
 
   IBM, 2003-2009
-  (Austin, TX)
+  Austin, TX
 
    Linux Technology Center, Security
 
