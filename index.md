@@ -27,9 +27,10 @@ Threat Detection</a> product in GKE.
 
 ## Employment History
 
-### Apple, 2019-present<br>Seattle, WA
+### Apple, 2019-present<br> (Seattle, WA)
 
 ***Apple Cloud Services (ACS) Kubernetes Team***<br>
+
 _Senior Security Software Engineer_
 
  * In response to compute capacity pressure due to the 2019-2020 global chip
@@ -42,12 +43,14 @@ _Senior Security Software Engineer_
  * I influenced strategy and design for Confidential Computing features on
    next-generation Apple Silicon.
 
-### Google, 2011-2019<br>Kirkland, WA
+### Google, 2011-2019<br> (Kirkland, WA)
 
 **Founding Member** of the Google Cloud Platform (GCP) Security Organization.
 
 **<a
-href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a>**<br>_Staff Engineering Manager_
+href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a>**<br>
+
+_Staff Engineering Manager_
 
  * I built the team from scratch, hiring on 9 new employees from
    outside the company and transferring in 3 employees from other
@@ -65,7 +68,9 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
  * I led Machine Learning experts on my team to produce novel
    techniques in the threat detection domain.
 
-**fs-verity**<br>_Staff Technical Lead Manager_
+**fs-verity**<br>
+
+_Staff Technical Lead Manager_
 
  * I wrote the initial prototype of <a
    href="https://www.youtube.com/watch?v=Aw5h6aBhu6M">fs-verity</a>
@@ -73,7 +78,9 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    the upstream Linux kernel. The fs-verity feature now protects the
    integrity of sensitive apps on Android.
 
-**fs-crypt**<br>_Senior Software Engineer_
+**fs-crypt**<br>
+
+_Senior Software Engineer_
 
  * I proposed the <a
    href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote
@@ -88,20 +95,26 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
  * fs-crypt also protects user data on Chrome OS and sensitive data on
    Google's production infrastructure.
 
-**Cloud KMS**<br>_Senior Software Engineer_
+**Cloud KMS**<br>
+
+_Senior Software Engineer_
 
  * I conceived the <a href="https://cloud.google.com/kms">Google Cloud
    Key Management Service (KMS)</a> project and proposed the initial
    design. I transitioned the project to another team that specializes
    in key management, and they drove it to commercial success.
 
-**Customer-supplied Encryption Keys**<br>_Senior Software Engineer_
+**Customer-supplied Encryption Keys**<br>
+
+_Senior Software Engineer_
 
  * I led the design and implementation of <a
    href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied
    Encryption Keys (CSEK)</a> on Google Compute Engine.
 
-**Compute Engine Persistent Disk Encryption**<br>_Software Engineer III_
+**Compute Engine Persistent Disk Encryption**<br>
+
+_Software Engineer III_
 
  * I proposed, designed, and implemented storage encryption as an
    always-on feature of Google Compute Engine's <a
@@ -111,9 +124,11 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    consistency and performance requirements, which is a notable
    technical achievement.
 
-### Microsoft, 2009-2011<br>Redmond, WA
+### Microsoft, 2009-2011<br> (Redmond, WA)
 
-**Windows Division, BitLocker**<br>_Senior Software Engineer_
+**Windows Division, BitLocker**<br>
+
+_Senior Software Engineer_
 
  * I delivered <a
    href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based
@@ -122,9 +137,11 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    they can use Windows-native disk encryption technology.
  * I performed static code analysis of the Windows code base.
 
-### IBM, 2003-2009<br>Austin, TX
+### IBM, 2003-2009<br> (Austin, TX)
 
-**Linux Technology Center, Security**<br>_Software Engineer_
+**Linux Technology Center, Security**<br>
+
+_Software Engineer_
 
  * I created <a
    href="https://www.linuxjournal.com/article/9400">eCryptfs</a>. For
