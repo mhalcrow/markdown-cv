@@ -54,19 +54,19 @@ Threat Detection</a>**<br>
 
 *Staff Engineering Manager*
 
--   I built the team from scratch, hiring on 9 new employees from
+-   I built the team from the ground up, hiring on 9 new employees from
     outside the company and transferring in 3 employees from other teams
-    at Google. I established the team's engineering culture, drove
+    at Google. I influenced the team's engineering culture, drove
     execution, gave career guidance, and navigated the team through the
-    COVID-19 crisis to ship our Beta product in record time, moving from
-    concept and no headcount to delivery with 12 employees in about 18
-    months.
+    sudden shift to WFH in early 2020. From humble beginnings we
+    achieved a GA launch in about 20 months.
 -   I demonstrated adaptability in managing a disparate group of
     software engineers, including 1 college hire, 4 junior professional
     hires, 2 experienced professional hires, 2 internal transfers, and 3
     engineers with doctorates in security and ML.
--   I designed the kernel instrumentation and the Google service
-    framework, and I led my team's execution on an ambitious vision.
+-   I co-designed the kernel instrumentation and the Google service
+    framework with team leads, and I led my team's execution on an
+    ambitious vision.
 -   I led Machine Learning experts on my team to produce novel
     techniques in the threat detection domain.
 

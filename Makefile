@@ -1,11 +1,11 @@
 all: out/michael-halcrow-resume.md out/michael-halcrow-resume.html \
-	out/michael-halcrow-resume.txt
+	out/michael-halcrow-resume.txt out/michael-halcrow-resume.pdf
 
 out/michael-halcrow-resume.md: index.md
 	tail --lines="+5" index.md > out/michael-halcrow-resume.md
 
 out/michael-halcrow-resume.html: index.md
-	/home/mhalc/bin/jekyll build
+	jekyll build
 	echo "<style type=\"text/css\" media=\"screen\">" > out/michael-halcrow-resume.html
 	cat media/kjhealy-screen.css >> out/michael-halcrow-resume.html
 	echo "</style>" >> out/michael-halcrow-resume.html
@@ -17,11 +17,8 @@ out/michael-halcrow-resume.html: index.md
 out/michael-halcrow-resume.txt: out/michael-halcrow-resume.html
 	links -dump out/michael-halcrow-resume.html > out/michael-halcrow-resume.txt
 
-out/michael-halcrow-resume.pdf: out/"Michael Halcrow's Resume _ CV.pdf"
-	mv out/"Michael Halcrow's Resume _ CV.pdf" out/out/michael-halcrow-resume.pdf
-
-halcrow-resume.pdf: index.md
-	tail -n +5 index.md | pandoc -o halcrow-resume.pdf -f markdown -
+out/michael-halcrow-resume.pdf: out/michael-halcrow-resume.html
+	wkhtmltopdf out/michael-halcrow-resume.html out/michael-halcrow-resume.pdf
 
 clean:
 	rm -f out/michael-halcrow-resume.*
