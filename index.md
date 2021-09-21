@@ -144,9 +144,9 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 
 ## Miscellaneous
 
-I help instruct Google's internal Interview Training Workshop, where I
-prepare new employees to conduct interviews at Google. I'm also a
-leading interviewer in my organization, and I'm frequently called upon
+I instructed for Google's internal Interview Training Workshop, where I
+prepared new employees to conduct interviews at Google. I was also a
+leading interviewer in my organization, and I was frequently called upon
 to interview Product Managers, Engineering Managers, Software
 Engineers, Test Engineers, and Technical Program Managers.
 
@@ -155,7 +155,7 @@ I am an inventor on 15 issued patents.
 I have made multiple external presentations at the Linux Security
 Summit (LSS) and the Ottawa Linux Symposium (OLS).
 
-I lead Google's internal bicycling forum for the Seattle area,
+I led Google's internal bicycling forum for the Seattle area,
 coordinating rides, giving presentations, and facilitating engagement
 with charity events.
 
