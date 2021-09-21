@@ -1,5 +1,4 @@
 # Michael Halcrow
-Engineering Manager, Security.
 
 <div id="webaddress">
 <a href="mailto:mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
@@ -10,32 +9,44 @@ Engineering Manager, Security.
 I seek a leadership opportunity applying deep security expertise to
 unique challenges.
 
-I am currently the Engineering Manager of the Container Threat
-Detection product team at Google. I hired and led a team of software
-developers to create a new enterprise security product in Google's
-Cloud Security organization. My team <a
-href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">shipped
-its Beta product</a> in May 2020.
-
 I have 20 years of experience in the security industry. My most
-noteable accomplishments include <a
+noteable technical accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
-are part of the upstream Linux kernel. My technology was central in
-Google's effort to encrypt billions of Android devices across the
-globe, closing a major competitive gap with the Apple iPhone.
+are part of the upstream Linux kernel. My technology encrypts billions of
+Android devices across the globe.
 
-I thrive in ambiguity and relish opportunities to lead the industry in
-whatever challenge I take on.
+As an Engineering Manager I led a team that designed, built, and shipped to GA
+the <a
+href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container
+Threat Detection</a> product in GKE.
 
 ## Employment History
 
-### Google, 2011-present<br>Kirkland, WA
+### Apple, 2019-present<br> (Seattle, WA)
+
+***Apple Cloud Services (ACS) Kubernetes Team***<br>
+
+_Senior Security Software Engineer_
+
+ * In response to compute capacity pressure due to the 2019-2020 global chip
+   shortage, I produced Linux kernel mitigations for CPU architecture
+   vulnerabilities relating to hyperthreading. I guided maintainers for K8s
+   orchestration components on modifications to support this functionality.
+ * I responded to security incidents, performing data analytics on audit logs
+   and advising response and engineering teams on mitigations across the Cloud
+   stack.
+ * I influenced strategy and design for Confidential Computing features on
+   next-generation Apple Silicon.
+
+### Google, 2011-2019<br> (Kirkland, WA)
 
 **Founding Member** of the Google Cloud Platform (GCP) Security Organization.
 
 **<a
-href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a>**<br>_Staff Engineering Manager_
+href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container Threat Detection</a>**<br>
+
+_Staff Engineering Manager_
 
  * I built the team from scratch, hiring on 9 new employees from
    outside the company and transferring in 3 employees from other
@@ -45,16 +56,17 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    time, moving from concept and no headcount to delivery with 12
    employees in about 18 months.
  * I demonstrated adaptability in managing a disparate group of
-   software engineers, including 1 new hire straight out of college, 4
-   junior professional hires, 2 experienced professional hires, 2
-   internal transfers, and 3 engineers with doctorates in security and
-   ML.
+   software engineers, including 1 college hire, 4 junior professional hires, 2
+   experienced professional hires, 2 internal transfers, and 3 engineers with
+   doctorates in security and ML.
  * I designed the kernel instrumentation and the Google service
    framework, and I led my team's execution on an ambitious vision.
  * I led Machine Learning experts on my team to produce novel
    techniques in the threat detection domain.
 
-**fs-verity**<br>_Staff Technical Lead Manager_
+**fs-verity**<br>
+
+_Staff Technical Lead Manager_
 
  * I wrote the initial prototype of <a
    href="https://www.youtube.com/watch?v=Aw5h6aBhu6M">fs-verity</a>
@@ -62,7 +74,9 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    the upstream Linux kernel. The fs-verity feature now protects the
    integrity of sensitive apps on Android.
 
-**fs-crypt**<br>_Senior Software Engineer_
+**fs-crypt**<br>
+
+_Senior Software Engineer_
 
  * I proposed the <a
    href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote
@@ -77,20 +91,26 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
  * fs-crypt also protects user data on Chrome OS and sensitive data on
    Google's production infrastructure.
 
-**Cloud KMS**<br>_Senior Software Engineer_
+**Cloud KMS**<br>
+
+_Senior Software Engineer_
 
  * I conceived the <a href="https://cloud.google.com/kms">Google Cloud
    Key Management Service (KMS)</a> project and proposed the initial
    design. I transitioned the project to another team that specializes
    in key management, and they drove it to commercial success.
 
-**Customer-supplied Encryption Keys**<br>_Senior Software Engineer_
+**Customer-supplied Encryption Keys**<br>
+
+_Senior Software Engineer_
 
  * I led the design and implementation of <a
    href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied
    Encryption Keys (CSEK)</a> on Google Compute Engine.
 
-**Compute Engine Persistent Disk Encryption**<br>_Software Engineer III_
+**Compute Engine Persistent Disk Encryption**<br>
+
+_Software Engineer III_
 
  * I proposed, designed, and implemented storage encryption as an
    always-on feature of Google Compute Engine's <a
@@ -100,9 +120,11 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    consistency and performance requirements, which is a notable
    technical achievement.
 
-### Microsoft, 2009-2011<br>Redmond, WA
+### Microsoft, 2009-2011<br> (Redmond, WA)
 
-**Windows Division, BitLocker**<br>_Senior Software Engineer_
+**Windows Division, BitLocker**<br>
+
+_Senior Software Engineer_
 
  * I delivered <a
    href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based
@@ -111,9 +133,11 @@ href="https://cloud.google.com/security-command-center/docs/concepts-container-t
    they can use Windows-native disk encryption technology.
  * I performed static code analysis of the Windows code base.
 
-### IBM, 2003-2009<br>Austin, TX
+### IBM, 2003-2009<br> (Austin, TX)
 
-**Linux Technology Center, Security**<br>_Software Engineer_
+**Linux Technology Center, Security**<br>
+
+_Software Engineer_
 
  * I created <a
    href="https://www.linuxjournal.com/article/9400">eCryptfs</a>. For
@@ -132,18 +156,18 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 
 ## Miscellaneous
 
-I help instruct Google's internal Interview Training Workshop, where I
-prepare new employees to conduct interviews at Google. I'm also a
-leading interviewer in my organization, and I'm frequently called upon
-to interview Product Managers, Engineering Managers, Software
-Engineers, Test Engineers, and Technical Program Managers.
+I taught Google's internal Interview Training Workshop, where I prepared new
+employees to conduct interviews at Google. I was also a leading interviewer in
+my organization, and I was frequently called upon to interview Product
+Managers, Engineering Managers, Software Engineers, Test Engineers, and
+Technical Program Managers.
 
 I am an inventor on 15 issued patents.
 
 I have made multiple external presentations at the Linux Security
 Summit (LSS) and the Ottawa Linux Symposium (OLS).
 
-I lead Google's internal bicycling forum for the Seattle area,
+I led Google's internal bicycling forum for the Seattle area,
 coordinating rides, giving presentations, and facilitating engagement
 with charity events.
 
