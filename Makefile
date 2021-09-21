@@ -20,5 +20,8 @@ out/michael-halcrow-resume.txt: out/michael-halcrow-resume.html
 out/michael-halcrow-resume.pdf: out/"Michael Halcrow's Resume _ CV.pdf"
 	mv out/"Michael Halcrow's Resume _ CV.pdf" out/out/michael-halcrow-resume.pdf
 
+halcrow-resume.pdf: index.md
+	tail -n +5 index.md | pandoc -o halcrow-resume.pdf -f markdown -
+
 clean:
 	rm -f out/michael-halcrow-resume.*
