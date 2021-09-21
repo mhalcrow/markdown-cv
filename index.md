@@ -3,7 +3,6 @@ layout: cv
 title: Michael Halcrow's Resume
 ---
 # Michael Halcrow
-Engineering Manager, Security.
 
 <div id="webaddress">
 <a href="mailto:mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
