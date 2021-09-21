@@ -144,11 +144,11 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 
 ## Miscellaneous
 
-I instructed for Google's internal Interview Training Workshop, where I
-prepared new employees to conduct interviews at Google. I was also a
-leading interviewer in my organization, and I was frequently called upon
-to interview Product Managers, Engineering Managers, Software
-Engineers, Test Engineers, and Technical Program Managers.
+I taught Google's internal Interview Training Workshop, where I prepared new
+employees to conduct interviews at Google. I was also a leading interviewer in
+my organization, and I was frequently called upon to interview Product
+Managers, Engineering Managers, Software Engineers, Test Engineers, and
+Technical Program Managers.
 
 I am an inventor on 15 issued patents.
 
