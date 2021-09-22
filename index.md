@@ -27,7 +27,7 @@ Threat Detection</a> product in GKE.
 
 ## Employment History
 
-### Apple, 2019-present<br>Seattle, WA
+### Apple, 2020-present<br>Seattle, WA
 
 ***Apple Cloud Services (ACS) Kubernetes Team***<br>
 
@@ -43,7 +43,7 @@ _Senior Security Software Engineer_
  * I influenced strategy and design for Confidential Computing features on
    next-generation Apple Silicon.
 
-### Google, 2011-2019<br>Kirkland, WA
+### Google, 2011-2020<br>Kirkland, WA
 
 **Founding Member** of the Google Cloud Platform (GCP) Security Organization.
 

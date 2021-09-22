@@ -17,7 +17,7 @@ Overview
 
 Employment History
 
-  Apple, 2019-present
+  Apple, 2020-present
   Seattle, WA
 
    Apple Cloud Services (ACS) Kubernetes Team
@@ -35,7 +35,7 @@ Employment History
      * I influenced strategy and design for Confidential Computing features
        on next-generation Apple Silicon.
 
-  Google, 2011-2019
+  Google, 2011-2020
   Kirkland, WA
 
    Founding Member of the Google Cloud Platform (GCP) Security Organization.
