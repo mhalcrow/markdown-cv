@@ -5,19 +5,16 @@ title: Michael Halcrow's Resume
 # Michael Halcrow
 
 <div id="webaddress">
-<a href="mailto:mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
+<a href="mailto:cvzero@halcrow.us">cvzero@halcrow.us</a>
 </div>
 
 ## Overview
 
-I seek a leadership opportunity applying deep security expertise to
-unique challenges.
-
-I have 20 years of experience in the security industry. My most
+I have 20 years of experience in operating systems and security. My most
 noteable technical accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
-are part of the upstream Linux kernel. My technology encrypts billions of
+are features of the upstream Linux kernel. My technology encrypts billions of
 Android devices across the globe.
 
 As an Engineering Manager I led a team that designed, built, and shipped to GA
@@ -25,23 +22,27 @@ the <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container
 Threat Detection</a> product in GKE.
 
+
+
 ## Employment History
 
-### Apple, 2020-present<br>Seattle, WA
+### Snowflake, 2021-present<br>Bellevue, WA
+
+_Principal Engineer_
+
+ * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime. We have experienced no infrastructure security incidents to date.
+ * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.
+ * I hired several direct reports and led the Snowpark External Access feature team.
+
+### Apple, 2020-2021<br>Seattle, WA
 
 ***Apple Cloud Services (ACS) Kubernetes Team***<br>
 
 _Senior Security Software Engineer_
 
- * I produced Linux kernel mitigations for CPU architecture vulnerabilities
-   relating to hyperthreading, and I guided maintainers for K8s orchestration
-   components on modifications to support this functionality.  This enabled
-   higher utilization of existing compute hardware in Apple data centers.
- * I responded to security incidents, performing data analytics on audit logs
-   and advising response and engineering teams on mitigations across the Cloud
-   stack.
- * I influenced strategy and design for Confidential Computing features on
-   next-generation Apple Silicon.
+ * I influenced early strategy and design for Apple Private Cloud Compute,
+   produced Linux kernel mitigations to CPU architecture vulnerabilities, and
+   advised the security incident response team.
 
 ### Google, 2011-2020<br>Kirkland, WA
 
