@@ -28,6 +28,8 @@ Threat Detection</a> product in GKE.
 
 ### Snowflake, 2021-present<br>Bellevue, WA
 
+***Snowflake Kubernetes Team***<br>
+
 _Principal Engineer_
 
  * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime. We have experienced no infrastructure security incidents to date.
