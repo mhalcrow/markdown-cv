@@ -34,7 +34,7 @@ _Principal Engineer_
 
  * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime. We have experienced no infrastructure security incidents to date.
  * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.
- * I hired several direct reports and led the Snowpark External Access feature team.
+ * I hired several direct reports and led the <a href="https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-overview">Snowpark External Network Access</a> feature team.
 
 ### Apple, 2020-2021<br>Seattle, WA
 
