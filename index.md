@@ -162,9 +162,9 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 
 ## Miscellaneous
 
-I have performed thousands of technical interviews at both Google and Snowflake
-for senior and staff individual contributors and for first- and second-line
-engineering managers.
+I have performed over a thousand technical interviews at both Google and
+Snowflake for senior and staff individual contributors and for first- and
+second-line engineering managers.
 
 I am an inventor on over 15 issued patents.
 
