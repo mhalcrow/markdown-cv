@@ -10,7 +10,7 @@ title: Mike Halcrow's Resume
 
 ## Overview
 
-I am Principal Engineer with over 20 years of experience in operating systems
+I am a Principal Engineer with over 20 years of experience in operating systems
 and security. My most noteable technical accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a>, <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, and <a
