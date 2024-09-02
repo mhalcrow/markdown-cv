@@ -31,7 +31,7 @@ Threat Detection</a> product in GKE.
 
 _Principal Engineer_
 
- * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime.
+ * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime.  This product area is among the fastest-growing revenue generators for the company and is currently at $XX million ARR, and the infrastructure security against potentially-malicious third-party code is fundamental to its viability.
  * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.  This deployment collects 10B highly-detailed log events per day without impacting infrastructure stability or degrading customer workload performance.
  * I hired several direct reports and led the <a href="https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-overview">Snowpark External Network Access</a> feature team.
  * As the most senior resident expert in operating systems and security at the company I regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation. 
