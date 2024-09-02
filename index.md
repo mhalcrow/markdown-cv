@@ -1,8 +1,8 @@
 ---
 layout: cv
-title: Michael Halcrow's Resume
+title: Mike Halcrow's Resume
 ---
-# Michael Halcrow
+# Mike Halcrow
 
 <div id="webaddress">
 <a href="mailto:cvzero@halcrow.us">cvzero@halcrow.us</a>
@@ -10,19 +10,18 @@ title: Michael Halcrow's Resume
 
 ## Overview
 
-I have 20 years of experience in operating systems and security. My most
+I have over 20 years of experience in operating systems and security. My most
 noteable technical accomplishments include <a
-href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a
-href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
-are features of the upstream Linux kernel. My technology encrypts billions of
-Android devices across the globe.
+href="https://www.linuxjournal.com/article/9400">eCryptfs</a>, <a
+href="https://lwn.net/Articles/639427/">fs-crypt</a>, and <a
+href="https://lssna18.sched.com/event/FLY6/fs-verity-native-file-based-authenticity-michael-halcrow-google">fs-verity</a>,
+which are all features of the upstream Linux kernel.  My technology protects
+data for billions of Android users across the globe.
 
 As an Engineering Manager I led a team that designed, built, and shipped to GA
 the <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container
 Threat Detection</a> product in GKE.
-
-
 
 ## Employment History
 
@@ -32,9 +31,10 @@ Threat Detection</a> product in GKE.
 
 _Principal Engineer_
 
- * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime. We have experienced no infrastructure security incidents to date.
- * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.
+ * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime.
+ * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.  This deployment collects 10B highly-detailed log events per day without impacting infrastructure stability or degrading customer workload performance.
  * I hired several direct reports and led the <a href="https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-overview">Snowpark External Network Access</a> feature team.
+ * As the most senior resident expert in operating systems and security at the company I regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation. 
 
 ### Apple, 2020-2021<br>Seattle, WA
 
@@ -103,7 +103,8 @@ _Senior Software Engineer_
  * I conceived the <a href="https://cloud.google.com/kms">Google Cloud Key
    Management Service (KMS)</a> project and proposed the initial design. I
    transitioned the project to another team that specializes in key management,
-   and they drove it to commercial success.
+   and they drove it to commercial success while adhering to my original
+   design.
 
 **Customer-supplied Encryption Keys**<br>
 
@@ -122,7 +123,8 @@ _Software Engineer III_
    href="https://cloud.google.com/persistent-disk">Persistent Disk</a>, which
    was an industry-first accomplishment in the Cloud space. I applied AEAD
    encryption to block storage while meeting consistency and performance
-   requirements, which is a notable technical achievement.
+   requirements, which remains a novel and yet-unmatched technical achievement
+   among the major Cloud providers.
 
 ### Microsoft, 2009-2011<br>Redmond, WA
 
@@ -135,7 +137,7 @@ _Senior Software Engineer_
    system volume protectors</a> for the BitLocker Full Disk Encryption feature,
    unblocking a significant number of enterprise customers so they can use
    Windows-native disk encryption technology.
- * I performed static code analysis of the Windows code base.
+ * I performed static code analysis across the entire Windows code base.
 
 ### IBM, 2003-2009<br>Austin, TX
 
@@ -160,13 +162,11 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 
 ## Miscellaneous
 
-I taught Google's internal Interview Training Workshop, where I prepared new
-employees to conduct interviews at Google. I was also a leading interviewer in
-my organization, and I was frequently called upon to interview Product
-Managers, Engineering Managers, Software Engineers, Test Engineers, and
-Technical Program Managers.
+I have performed thousands of technical interviews at both Google and Snowflake
+for senior and staff individual contributors and for first- and second-line
+engineering managers.
 
-I am an inventor on 15 issued patents.
+I am an inventor on over 15 issued patents.
 
 I have made multiple external presentations at the Linux Security
 Summit (LSS) and the Ottawa Linux Symposium (OLS).
@@ -179,6 +179,6 @@ with charity events.
 
 **Security**, Privacy, Data Protection, **Storage Encryption**,
 Applied Cryptography, Key Management, KMS, Linux, File Systems,
-Operating Systems, Containers, Docker, Kubernetes, **Threat
+Operating Systems, Containers, Docker, Podman, Kubernetes, **Threat
 Detection**, Scrum, Agile, Engineering Management, C, C++, Python, Go,
 Machine Learning, ML
