@@ -10,7 +10,7 @@ title: Mike Halcrow's Resume
 
 ## Overview
 
-I am a Principal Engineer with over 20 years of experience in operating systems
+I am a Principal Architect in Product Security with over 20 years of experience in operating systems
 and security. My most noteable technical accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a>, <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, and <a
@@ -27,6 +27,13 @@ Threat Detection</a> product in GKE.
 
 ### Snowflake, 2021-present<br>Bellevue, WA
 
+***Snowflake Product Security***<br>
+
+_Principal Architect_
+
+* As the primary architect for Product Security I lead the design and development of secure-by-default frameworks, services, and tools that underpin Snowflake's infrastructure.
+* I led security for the Crunchy Data M&A, driving authentication and authorization, threat modeling, penetration testing, threat detection, network ingress and egress controls, employee production access, data encryption, and vulnerability management for the Postgres SaaS product. The team implemented several key security controls under my direction, mitigating critical gaps in the security posture of the product on an aggressive timeline.
+
 ***Snowflake Kubernetes Team***<br>
 
 _Principal Engineer_
@@ -34,7 +41,7 @@ _Principal Engineer_
  * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime.  This product area is among the fastest-growing revenue generators for the company and is currently at $XX million ARR, and the infrastructure security against potentially-malicious third-party code is fundamental to its viability.
  * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.  This deployment collects 10B highly-detailed log events per day without impacting infrastructure stability or degrading customer workload performance.
  * I hired several direct reports and led the <a href="https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-overview">Snowpark External Network Access</a> feature team.
- * As the most senior resident expert in operating systems and security at the company I regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation. 
+ * As a resident expert in operating systems and security at the company I regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation.
 
 ### Apple, 2020-2021<br>Seattle, WA
 
