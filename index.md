@@ -184,5 +184,6 @@ with charity events.
 **Security**, Privacy, Data Protection, **Storage Encryption**,
 Applied Cryptography, Key Management, KMS, Linux, File Systems,
 Operating Systems, Containers, Docker, Podman, Kubernetes, **Threat
-Detection**, Scrum, Agile, Engineering Management, C, C++, Python, Go,
-Machine Learning, ML
+Detection**, Scrum, Agile, Engineering Management, C, C++, Python, Go, Rust,
+Machine Learning, ML, Artificial Intelligence, AI, Sandboxing, Tool and MCP
+Security 
