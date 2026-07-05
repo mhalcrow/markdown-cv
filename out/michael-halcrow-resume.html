@@ -335,54 +335,64 @@ strong {
 <html>
 <head>
   <meta charset=utf-8 />
-  <title>  Michael Halcrow's Resume |  CV</title>
+  <title>  Mike Halcrow's Resume |  CV</title>
   <link href="media/kjhealy-screen.css" type="text/css" rel="stylesheet" media="screen">
   <link href="media/kjhealy-print.css" type="text/css" rel="stylesheet" media="print">
 </head>
 <body>
   <div id="main">
     <div id="content">
-    <h1 id="michael-halcrow">Michael Halcrow</h1>
+    <h1 id="mike-halcrow">Mike Halcrow</h1>
 
 <div id="webaddress">
-<a href="mailto:mikehalcrow@gmail.com">mikehalcrow@gmail.com</a>
+<a href="mailto:cvzero@halcrow.us">cvzero@halcrow.us</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/mhalcrow">LinkedIn</a>
+</div>
+
+<div id="headline">
+Principal Architect | Security, Operating Systems &amp; Applied Cryptography | 20+ Years
 </div>
 
 <h2 id="overview">Overview</h2>
 
-<p>I seek a leadership opportunity applying deep security expertise to
-unique challenges.</p>
-
-<p>I have 20 years of experience in the security industry. My most
-noteable technical accomplishments include <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a> and <a href="https://lwn.net/Articles/639427/">fs-crypt</a>, both of which
-are part of the upstream Linux kernel. My technology encrypts billions of
-Android devices across the globe.</p>
-
-<p>As an Engineering Manager I led a team that designed, built, and shipped to GA
-the <a href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container
-Threat Detection</a> product in GKE.</p>
+<p>Principal Architect with 20+ years of experience in operating systems and security. Authored three upstream Linux kernel features — <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a>, <a href="https://lwn.net/Articles/639427/">fs-crypt</a>, and <a href="https://lssna18.sched.com/event/FLY6/fs-verity-native-file-based-authenticity-michael-halcrow-google">fs-verity</a> — that collectively protect data for billions of Android users worldwide. Founding member of Google Cloud Platform’s security organization; built and led a 12-person team that shipped GKE Container Threat Detection to GA. Currently leading secure-by-default infrastructure architecture at Snowflake, including sandboxing for AI agents and third-party code isolation.</p>
 
 <h2 id="employment-history">Employment History</h2>
 
-<h3 id="apple-2020-presentseattle-wa">Apple, 2020-present<br />Seattle, WA</h3>
+<h3 id="snowflake-2021presentbellevue-wa">Snowflake, 2021–Present<br />Bellevue, WA</h3>
+
+<p><strong><em>Snowflake Security Foundations Team</em></strong><br /></p>
+
+<p><em>Principal Architect</em></p>
+
+<ul>
+  <li>Lead the design and development of secure-by-default frameworks, services, and tools that underpin Snowflake’s infrastructure.</li>
+  <li>Led design and implementation of the second-generation sandbox for Snowflake’s AI agent, Cortex Code (CoCo), unblocking multiple large enterprise customers previously unable to meet internal security requirements for AI agents on employee workstations.</li>
+  <li>Led end-to-end security integration for the Crunchy Data (Postgres SaaS) acquisition, covering authentication, authorization, threat modeling, penetration testing, network ingress and egress controls, employee production access, data encryption, and vulnerability management.</li>
+  <li>Directed the team in implementing critical security controls on an aggressive pre-close timeline, closing key gaps in the product’s security posture.</li>
+</ul>
+
+<p><strong><em>Snowflake Kubernetes Team</em></strong><br /></p>
+
+<p><em>Principal Engineer</em></p>
+
+<ul>
+  <li>Led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark, performing the initial integration of gVisor as a new container runtime. This product area is among the fastest-growing revenue generators for the company, with infrastructure-level isolation of potentially-malicious third-party code fundamental to its viability.</li>
+  <li>Led threat detection in Snowpark Container Services, working with <strong>Kubernetes</strong> and <strong>eBPF</strong> technologies. Managed Snowflake’s engagement with a vendor from contract negotiation through full deployment, and led the transition to a community-supported version. This deployment collects 10B highly-detailed log events per day without impacting infrastructure stability or degrading customer workload performance.</li>
+  <li>Hired several direct reports and led the <a href="https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-overview">Snowpark External Network Access</a> feature team.</li>
+  <li>As a recognized expert in operating systems and security, regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation.</li>
+</ul>
+
+<h3 id="apple-20202021seattle-wa">Apple, 2020–2021<br />Seattle, WA</h3>
 
 <p><strong><em>Apple Cloud Services (ACS) Kubernetes Team</em></strong><br /></p>
 
 <p><em>Senior Security Software Engineer</em></p>
 
 <ul>
-  <li>I produced Linux kernel mitigations for CPU architecture vulnerabilities
-relating to hyperthreading, and I guided maintainers for K8s orchestration
-components on modifications to support this functionality.  This enabled
-higher utilization of existing compute hardware in Apple data centers.</li>
-  <li>I responded to security incidents, performing data analytics on audit logs
-and advising response and engineering teams on mitigations across the Cloud
-stack.</li>
-  <li>I influenced strategy and design for Confidential Computing features on
-next-generation Apple Silicon.</li>
+  <li>Influenced early strategy and design for Apple Private Cloud Compute, produced Linux kernel mitigations to CPU architecture vulnerabilities, and advised the security incident response team.</li>
 </ul>
 
-<h3 id="google-2011-2020kirkland-wa">Google, 2011-2020<br />Kirkland, WA</h3>
+<h3 id="google-20112020kirkland-wa">Google, 2011–2020<br />Kirkland, WA</h3>
 
 <p><strong>Founding Member</strong> of the Google Cloud Platform (GCP) Security Organization.</p>
 
@@ -391,20 +401,10 @@ next-generation Apple Silicon.</li>
 <p><em>Staff Engineering Manager</em></p>
 
 <ul>
-  <li>I built the team from the ground up, hiring on 9 new employees from
-outside the company and transferring in 3 employees from other
-teams at Google. I influenced the team’s engineering culture,
-drove execution, gave career guidance, and navigated the team through the
-sudden shift to WFH in early 2020. From humble beginnings we achieved a GA
-launch in about 20 months.</li>
-  <li>I demonstrated adaptability in managing a disparate group of software
-engineers, including 1 college hire, 4 junior professional hires, 2
-experienced professional hires, 2 internal transfers, and 3 engineers with
-doctorates in security and ML.</li>
-  <li>I co-designed the kernel instrumentation and the Google service framework
-with team leads, and I led my team’s execution on an ambitious vision.</li>
-  <li>I led Machine Learning experts on my team to produce novel techniques in the
-threat detection domain.</li>
+  <li>Built the team from the ground up, hiring 9 new employees from outside the company and transferring in 3 employees from other Google teams. Influenced the team’s engineering culture, drove execution, provided career guidance, and navigated the team through the sudden shift to WFH in early 2020. Achieved a GA launch in approximately 20 months, with several reports promoted in the process.</li>
+  <li>Demonstrated adaptability in managing a diverse group of software engineers, including 1 college hire, 4 junior professional hires, 2 experienced professional hires, 2 internal transfers, and 3 engineers with doctorates in security and ML.</li>
+  <li>Co-designed the kernel instrumentation and the Google service framework with team leads, and led the team’s execution on an ambitious vision.</li>
+  <li>Led Machine Learning experts on the team to produce novel techniques in the threat detection domain.</li>
 </ul>
 
 <p><strong>fs-verity</strong><br /></p>
@@ -412,10 +412,7 @@ threat detection domain.</li>
 <p><em>Staff Technical Lead Manager</em></p>
 
 <ul>
-  <li>I wrote the initial prototype of <a href="https://www.youtube.com/watch?v=Aw5h6aBhu6M">fs-verity</a>
-and led my team to drive the implementation through to merging into
-the upstream Linux kernel. The fs-verity feature now protects the integrity
-of sensitive apps on Android.</li>
+  <li>Wrote the initial prototype of <a href="https://www.youtube.com/watch?v=Aw5h6aBhu6M">fs-verity</a> and led the team to drive the implementation through to merging into the upstream Linux kernel. The fs-verity feature now protects the integrity of sensitive apps on Android.</li>
 </ul>
 
 <p><strong>fs-crypt</strong><br /></p>
@@ -423,77 +420,49 @@ of sensitive apps on Android.</li>
 <p><em>Senior Software Engineer</em></p>
 
 <ul>
-  <li>I proposed the <a href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote the
-design, and wrote the majority of the implemention together with Ted T’so, a
-well-known core Linux kernel maintainer. I engaged the Android team at
-Google to ensure that fs-crypt met platform requirements, extended fs-crypt
-to support Inline Cryptographic Engine (ICE) technology that’s part of the
-ARM ecosystem, and worked with engineers in the Android organization to <a href="https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html">ship
-Android N with storage encryption</a> enabled by default.</li>
-  <li>fs-crypt also protects user data on Chrome OS and sensitive data on Google’s
-production infrastructure.</li>
+  <li>Proposed the <a href="https://lwn.net/Articles/639427/">fs-crypt</a> project, wrote the design, and wrote the majority of the implementation together with Ted T’so, a well-known core Linux kernel maintainer. Engaged the Android team at Google to ensure fs-crypt met platform requirements, extended fs-crypt to support Inline Cryptographic Engine (ICE) technology in the ARM ecosystem, and worked with engineers in the Android organization to <a href="https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html">ship Android N with storage encryption</a> enabled by default.</li>
+  <li>fs-crypt also protects user data on Chrome OS and sensitive data on Google’s production infrastructure.</li>
 </ul>
 
-<p><strong>Cloud KMS</strong><br /></p>
+<p><strong>Cloud Storage Encryption (Persistent Disk, Cloud KMS, CSEK)</strong><br /></p>
 
-<p><em>Senior Software Engineer</em></p>
+<p><em>Software Engineer III → Senior Software Engineer</em></p>
 
 <ul>
-  <li>I conceived the <a href="https://cloud.google.com/kms">Google Cloud Key
-Management Service (KMS)</a> project and proposed the initial design. I
-transitioned the project to another team that specializes in key management,
-and they drove it to commercial success.</li>
+  <li>Proposed, designed, and implemented storage encryption as an always-on feature of Google Compute Engine’s <a href="https://cloud.google.com/persistent-disk">Persistent Disk</a> — an industry-first accomplishment in the Cloud space. Applied AEAD encryption to block storage while meeting consistency and performance requirements, a novel and yet-unmatched technical achievement among major Cloud providers.</li>
+  <li>Conceived the <a href="https://cloud.google.com/kms">Google Cloud Key Management Service (KMS)</a> project and proposed the initial design. Transitioned the project to a team specializing in key management, which drove it to commercial success while adhering to the original design.</li>
+  <li>Led the design and implementation of <a href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied Encryption Keys (CSEK)</a> on Google Compute Engine.</li>
 </ul>
 
-<p><strong>Customer-supplied Encryption Keys</strong><br /></p>
-
-<p><em>Senior Software Engineer</em></p>
-
-<ul>
-  <li>I led the design and implementation of <a href="https://cloud.google.com/security/encryption-at-rest/customer-supplied-encryption-keys">Customer-supplied
-Encryption Keys (CSEK)</a> on Google Compute Engine.</li>
-</ul>
-
-<p><strong>Compute Engine Persistent Disk Encryption</strong><br /></p>
-
-<p><em>Software Engineer III</em></p>
-
-<ul>
-  <li>I proposed, designed, and implemented storage encryption as an always-on
-feature of Google Compute Engine’s <a href="https://cloud.google.com/persistent-disk">Persistent Disk</a>, which
-was an industry-first accomplishment in the Cloud space. I applied AEAD
-encryption to block storage while meeting consistency and performance
-requirements, which is a notable technical achievement.</li>
-</ul>
-
-<h3 id="microsoft-2009-2011redmond-wa">Microsoft, 2009-2011<br />Redmond, WA</h3>
+<h3 id="microsoft-20092011redmond-wa">Microsoft, 2009–2011<br />Redmond, WA</h3>
 
 <p><strong>Windows Division, BitLocker</strong><br /></p>
 
 <p><em>Senior Software Engineer</em></p>
 
 <ul>
-  <li>I delivered <a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based
-system volume protectors</a> for the BitLocker Full Disk Encryption feature,
-unblocking a significant number of enterprise customers so they can use
-Windows-native disk encryption technology.</li>
-  <li>I performed static code analysis of the Windows code base.</li>
+  <li>Delivered <a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-group-policy-settings#bkmk-ospw">passphrase-based system volume protectors</a> for the BitLocker Full Disk Encryption feature, unblocking a significant number of enterprise customers to use Windows-native disk encryption technology.</li>
+  <li>Performed static code analysis across the entire Windows code base.</li>
 </ul>
 
-<h3 id="ibm-2003-2009austin-tx">IBM, 2003-2009<br />Austin, TX</h3>
+<h3 id="ibm-20032009austin-tx">IBM, 2003–2009<br />Austin, TX</h3>
 
 <p><strong>Linux Technology Center, Security</strong><br /></p>
 
 <p><em>Software Engineer</em></p>
 
 <ul>
-  <li>I created <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a>. For many
-years eCryptfs protected storage on consumer devices such as Synology NAS,
-and at least one startup, Gazzang, based its core product offering on
-eCryptfs.</li>
-  <li>I wrote extensive detailed documentation of low-level Linux system call
-interfaces, which was critical to achieve the world’s first Common Criteria
-certification of a Linux distribution (RHEL).</li>
+  <li>Created <a href="https://www.linuxjournal.com/article/9400">eCryptfs</a>, a Linux kernel filesystem encryption layer. For many years eCryptfs protected storage on consumer devices such as Synology NAS, and at least one startup, Gazzang, based its core product offering on eCryptfs.</li>
+  <li>Wrote extensive detailed documentation of low-level Linux system call interfaces, critical to achieving the world’s first Common Criteria certification of a Linux distribution (RHEL).</li>
+</ul>
+
+<h2 id="patents--publications">Patents &amp; Publications</h2>
+
+<ul>
+  <li>Inventor on 15+ issued U.S. patents in security and cryptography.</li>
+  <li>Speaker, Linux Security Summit (LSS) — <em>fs-verity: Native File-Based Authenticity</em> (2018).</li>
+  <li>Speaker, Ottawa Linux Symposium (OLS) — multiple presentations.</li>
+  <li>Author, <em>eCryptfs</em> — <a href="https://www.linuxjournal.com/article/9400">Linux Journal</a>.</li>
 </ul>
 
 <h2 id="education">Education</h2>
@@ -502,30 +471,25 @@ certification of a Linux distribution (RHEL).</li>
 
 <p>Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.</p>
 
-<h2 id="miscellaneous">Miscellaneous</h2>
+<h2 id="technical-skills">Technical Skills</h2>
 
-<p>I taught Google’s internal Interview Training Workshop, where I prepared new
-employees to conduct interviews at Google. I was also a leading interviewer in
-my organization, and I was frequently called upon to interview Product
-Managers, Engineering Managers, Software Engineers, Test Engineers, and
-Technical Program Managers.</p>
+<p><strong>Security &amp; Cryptography:</strong> Applied Cryptography, Storage Encryption, Key Management (KMS), Threat Detection, Threat Modeling, Penetration Testing, Sandboxing, Mandatory Access Control, Vulnerability Management, Zero-Trust Architecture, Tool and MCP Security, Privacy, Data Protection</p>
 
-<p>I am an inventor on 15 issued patents.</p>
+<p><strong>Systems &amp; Infrastructure:</strong> Linux Kernel, File Systems, Operating Systems, Containers, Docker, Podman, Kubernetes, gVisor, eBPF</p>
 
-<p>I have made multiple external presentations at the Linux Security
-Summit (LSS) and the Ottawa Linux Symposium (OLS).</p>
+<p><strong>Languages:</strong> C, C++, Python, Go, Rust</p>
 
-<p>I led Google’s internal bicycling forum for the Seattle area,
-coordinating rides, giving presentations, and facilitating engagement
-with charity events.</p>
+<p><strong>Cloud &amp; Platforms:</strong> Google Cloud Platform (GCP), Snowflake, Android, Chrome OS</p>
 
-<h2 id="keywords">Keywords</h2>
+<p><strong>AI/ML:</strong> Machine Learning for Threat Detection, AI Agent Sandboxing, Artificial Intelligence</p>
 
-<p><strong>Security</strong>, Privacy, Data Protection, <strong>Storage Encryption</strong>,
-Applied Cryptography, Key Management, KMS, Linux, File Systems,
-Operating Systems, Containers, Docker, Kubernetes, <strong>Threat
-Detection</strong>, Scrum, Agile, Engineering Management, C, C++, Python, Go,
-Machine Learning, ML</p>
+<p><strong>Methodologies:</strong> Agile, Scrum, Engineering Management</p>
+
+<h2 id="additional-information">Additional Information</h2>
+
+<ul>
+  <li>Member of the Snowflake committee building the program for AI-driven Software Development technical interviews.</li>
+</ul>
 
     </div>
   </div>
