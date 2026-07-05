@@ -69,7 +69,7 @@ _Staff Technical Lead Manager_
 
 _Senior Software Engineer_
 
-* Proposed the [fs-crypt](https://lwn.net/Articles/639427/) project, wrote the design, and wrote the majority of the implementation together with Ted T'so, a well-known core Linux kernel maintainer. Engaged the Android team at Google to ensure fs-crypt met platform requirements, extended fs-crypt to support Inline Cryptographic Engine (ICE) technology in the ARM ecosystem, and worked with engineers in the Android organization to [ship Android N with storage encryption](https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html) enabled by default.
+* Proposed the [fs-crypt](https://lwn.net/Articles/639427/) project, wrote the design, and wrote the majority of the implementation together with Ted Ts'o, a well-known core Linux kernel maintainer. Engaged the Android team at Google to ensure fs-crypt met platform requirements, extended fs-crypt to support Inline Cryptographic Engine (ICE) technology in the ARM ecosystem, and worked with engineers in the Android organization to [ship Android N with storage encryption](https://android-developers.googleblog.com/2016/11/pixel-security-better-faster-stronger.html) enabled by default.
 * fs-crypt also protects user data on Chrome OS and sensitive data on Google's production infrastructure.
 
 **Cloud Storage Encryption (Persistent Disk, Cloud KMS, CSEK)**<br>
