@@ -5,10 +5,10 @@ title: Mike Halcrow's Resume
 # Mike Halcrow
 
 <div id="webaddress">
-<a href="mailto:cvzero@halcrow.us">cvzero@halcrow.us</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/mhalcrow">LinkedIn</a>
+<a href="mailto:cvzero@halcrow.us">cvzero@halcrow.us</a>
 </div>
 
-<div id="headline">
+ <div id="headline" style="position: relative; left: 33%; width: 70%;">
 Principal Architect | Security, Operating Systems & Applied Cryptography | 20+ Years
 </div>
 
