@@ -147,6 +147,7 @@ _Software Engineer_
 * Speaker, Linux Security Summit (LSS) - *fs-verity: Native File-Based Authenticity* (2018).
 * Speaker, Ottawa Linux Symposium (OLS) - multiple presentations.
 * Author, *eCryptfs* - [Linux Journal](https://www.linuxjournal.com/article/9400).
+* Member of the Snowflake committee building the program for AI-driven Software Development technical interviews.
 
 ## Education
 
@@ -167,7 +168,3 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 **AI/ML:** Machine Learning for Threat Detection, AI Agent Sandboxing
 
 **Methodologies:** Agile, Scrum, Engineering Management
-
-## Additional Information
-
-* Member of the Snowflake committee building the program for AI-driven Software Development technical interviews.
