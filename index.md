@@ -10,28 +10,27 @@ title: Mike Halcrow's Resume
 
 ## Overview
 
-I am a Principal Architect in Product Security with over 20 years of experience in operating systems
-and security. My most noteable technical accomplishments include <a
+I am a Principal Architect in the Security Foundations Team at Snowflake with over 20 years of experience in operating systems and security. My most noteable technical accomplishments include <a
 href="https://www.linuxjournal.com/article/9400">eCryptfs</a>, <a
 href="https://lwn.net/Articles/639427/">fs-crypt</a>, and <a
 href="https://lssna18.sched.com/event/FLY6/fs-verity-native-file-based-authenticity-michael-halcrow-google">fs-verity</a>,
-which are all features of the upstream Linux kernel.  My technology protects
+which are all features of the upstream Linux kernel. My technology protects
 data for billions of Android users across the globe.
 
-As an Engineering Manager I led a team that designed, built, and shipped to GA
-the <a
+I have both Individual Contributor and Engineering Management experience. At Google I built a new team, hiring 12 ICs. We designed, implemented, and shipped to GA the <a
 href="https://cloud.google.com/security-command-center/docs/concepts-container-threat-detection-overview">Container
-Threat Detection</a> product in GKE.
+Threat Detection</a> product in GKE. At Snowflake I hired and led a team that delivered secure Internet access capability to User-defined Functions (UDFs).
 
 ## Employment History
 
 ### Snowflake, 2021-present<br>Bellevue, WA
 
-***Snowflake Product Security***<br>
+***Snowflake Security Foundations Team***<br>
 
 _Principal Architect_
 
-* As the primary architect for Product Security I lead the design and development of secure-by-default frameworks, services, and tools that underpin Snowflake's infrastructure.
+* As an architect in the Security Foundations Team I lead the design and development of secure-by-default frameworks, services, and tools that underpin Snowflake's infrastructure.
+* I led the design and implementation of the second-generation sandbox for Snowflake's AI agent, Cortex Code (CoCo). My sandbox unblocks several large enterprise customers who have been previously unable to meet internal security requirements while having any AI agents running on employee workstations.
 * I led security for the Crunchy Data M&A, driving authentication and authorization, threat modeling, penetration testing, threat detection, network ingress and egress controls, employee production access, data encryption, and vulnerability management for the Postgres SaaS product. The team implemented several key security controls under my direction, mitigating critical gaps in the security posture of the product on an aggressive timeline.
 
 ***Snowflake Kubernetes Team***<br>
@@ -39,9 +38,9 @@ _Principal Architect_
 _Principal Engineer_
 
  * I led <a href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party code isolation</a> in Snowpark.  I performed the initial integration of gVisor as a new container runtime.  This product area is among the fastest-growing revenue generators for the company and is currently at $XX million ARR, and the infrastructure security against potentially-malicious third-party code is fundamental to its viability.
- * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies.  I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product.  This deployment collects 10B highly-detailed log events per day without impacting infrastructure stability or degrading customer workload performance.
+ * I led threat detection in Snowpark Container Services, working with **Kubernetes** and **eBPF** technologies. I managed Snowflake's engagement with a vendor from contract negotiation through to full deployment of their product, and I led the effort to transition to a community-supported version. This deployment collects 10B highly-detailed log events per day without impacting infrastructure stability or degrading customer workload performance.
  * I hired several direct reports and led the <a href="https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-overview">Snowpark External Network Access</a> feature team.
- * As a resident expert in operating systems and security at the company I regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation.
+ * As a recognized expert in operating systems and security I regularly consult with teams across all product and infrastructure areas on storage encryption, key management, workload identity, malicious workload isolation, machine image integrity, mandatory access control, networking security, and kernel vulnerability mitigation. 
 
 ### Apple, 2020-2021<br>Seattle, WA
 
@@ -65,9 +64,9 @@ _Staff Engineering Manager_
  * I built the team from the ground up, hiring on 9 new employees from
    outside the company and transferring in 3 employees from other
    teams at Google. I influenced the team's engineering culture,
-   drove execution, gave career guidance, and navigated the team through the
+   drove execution, provided career guidance, and navigated the team through the
    sudden shift to WFH in early 2020. From humble beginnings we achieved a GA
-   launch in about 20 months.
+   launch in about 20 months. I helped several reports get promoted in the process.
  * I demonstrated adaptability in managing a disparate group of software
    engineers, including 1 college hire, 4 junior professional hires, 2
    experienced professional hires, 2 internal transfers, and 3 engineers with
@@ -169,9 +168,7 @@ Bachelor of Science in Computer Engineering (BSCE), BYU, 2002.
 
 ## Miscellaneous
 
-I have performed over a thousand technical interviews at both Google and
-Snowflake for senior and staff individual contributors and for first- and
-second-line engineering managers.
+I am a on the Snowflake committee building the program for AI-driven Software Development technical interviews.
 
 I am an inventor on over 15 issued patents.
 
