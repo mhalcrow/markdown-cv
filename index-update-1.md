@@ -8,10 +8,6 @@ title: Mike Halcrow's Resume
 
 <div id="webaddress">
 <a href="mailto:cvzero@halcrow.us">cvzero@halcrow.us</a> · Bellevue, WA
-<!-- TODO: add profile links to strengthen the contact block, e.g.:
-· <a href="https://www.linkedin.com/in/YOUR-PROFILE">LinkedIn</a>
-· <a href="https://github.com/YOUR-USERNAME">GitHub</a>
--->
 </div>
 
 ## Overview
@@ -31,11 +27,11 @@ Threat Detection</a> in GKE from first hire through GA launch.
 
 ## Employment History
 
-### Snowflake, 2021–present<br>Bellevue, WA
+### Snowflake, 2021 - Present<br>Bellevue, WA
 
 ***Snowflake Security Foundations Team***<br>
 
-_Principal Architect_ <!-- TODO: add dates for this role, e.g., 2024–present -->
+_Principal Architect_
 
 * Lead the design and development of secure-by-default frameworks, services,
   and tools that underpin Snowflake's infrastructure.
@@ -52,7 +48,7 @@ _Principal Architect_ <!-- TODO: add dates for this role, e.g., 2024–present -
 
 ***Snowflake Kubernetes Team***<br>
 
-_Principal Engineer_ <!-- TODO: add dates for this role -->
+_Principal Engineer_
 
 * Led <a
   href="https://medium.com/snowflake/snowpark-protection-through-java-scala-and-python-isolation-f8d10be61d56">third-party
