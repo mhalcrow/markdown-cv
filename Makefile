@@ -18,7 +18,7 @@ out/michael-halcrow-resume.txt: out/michael-halcrow-resume.html
 	links -dump out/michael-halcrow-resume.html > out/michael-halcrow-resume.txt
 
 out/michael-halcrow-resume.pdf: out/michael-halcrow-resume.html
-	wkhtmltopdf out/michael-halcrow-resume.html out/michael-halcrow-resume.pdf
+	wkhtmltopdf --enable-local-file-access out/michael-halcrow-resume.html out/michael-halcrow-resume.pdf
 
 clean:
 	rm -f out/michael-halcrow-resume.*
