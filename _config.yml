@@ -1,2 +1,7 @@
 markdown:   kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols:
+    ndash: "--"
+    mdash: "---"
 style:  kjhealy
