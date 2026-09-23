@@ -24,8 +24,11 @@ Principal Architect with 20+ years of experience in operating systems and securi
 
 _Principal Architect_
 
-* Lead the design and development of secure-by-default frameworks, services, and tools that underpin Snowflake's infrastructure.
-* Led design and implementation of the second-generation sandbox for Snowflake's AI agent, Cortex Code (CoCo), unblocking multiple large enterprise customers previously unable to meet internal security requirements for AI agents on employee workstations.
+* Lead the design and development of secure-by-default frameworks, services,
+  and tools that underpin Snowflake's infrastructure.
+* Led design and implementation of a bimodal AI agent sandbox which both
+  integrates deeply with Snowflake's AI harness Cortex and also confines
+  third-party TUI agent harnesses such as Claude Code, Codex, OpenCode, and Pi.
 * Led security for the Crunchy Data acquisition, driving authentication and
   authorization, threat modeling, penetration testing, threat detection,
   network ingress and egress controls, employee production access, data

@@ -1,10 +1,13 @@
 all: out/michael-halcrow-resume.md out/michael-halcrow-resume.html \
 	out/michael-halcrow-resume.txt out/michael-halcrow-resume.pdf
 
-out/michael-halcrow-resume.md: index.md
+out:
+	mkdir -p out
+
+out/michael-halcrow-resume.md: index.md | out
 	tail --lines="+5" index.md > out/michael-halcrow-resume.md
 
-out/michael-halcrow-resume.html: index.md
+out/michael-halcrow-resume.html: index.md | out
 	jekyll build
 	echo "<style type=\"text/css\" media=\"screen\">" > out/michael-halcrow-resume.html
 	cat media/kjhealy-screen.css >> out/michael-halcrow-resume.html
@@ -14,7 +17,7 @@ out/michael-halcrow-resume.html: index.md
 	echo "</style>" >> out/michael-halcrow-resume.html
 	cat _site/index.html >> out/michael-halcrow-resume.html
 
-out/michael-halcrow-resume.txt: out/michael-halcrow-resume.html
+out/michael-halcrow-resume.txt: out/michael-halcrow-resume.html | out
 	links -dump out/michael-halcrow-resume.html > out/michael-halcrow-resume.txt
 
 out/michael-halcrow-resume.pdf: out/michael-halcrow-resume.html
