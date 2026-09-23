@@ -150,6 +150,12 @@ a:hover {
 	text-decoration: none;
 }
 
+#headline {
+	position: relative;
+	left: 33%;
+	width: 67%;
+}
+
 em {
 	font-weight: bold;
 	font-style: italic;

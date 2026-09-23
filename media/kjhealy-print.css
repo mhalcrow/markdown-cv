@@ -149,6 +149,12 @@ a:hover {
 	text-decoration: none;
 }
 
+#headline {
+	position: relative;
+	left: 28%;
+	width: 72%;
+}
+
 em {
 	font-style: normal;
 	color: #2d4e5e 
